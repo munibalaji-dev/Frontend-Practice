@@ -1,0 +1,17 @@
+p {
+  color: blue;
+  background-color: yellow;
+  font-family: sans-serif;
+}
+h1 {
+  background-color: orange;
+  color: white;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+img {
+  height: 300px;
+  width: 500px;
+}
