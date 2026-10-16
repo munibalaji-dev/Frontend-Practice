@@ -1,0 +1,65 @@
+.main {
+  background-color: red;
+  color: black;
+}
+
+.font1 {
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.sub {
+  background-color: aqua;
+  color: brown;
+}
+
+.font2 {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.end {
+  background-color: violet;
+  color: orange;
+}
+
+.font3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+/* Exact match "="    */
+a[href="https://www.google.com/"] {
+  color: yellow;
+}
+
+/* contains "*"    */
+
+a[href*="wikipedia"] {
+  color: blueviolet;
+}
+
+/* Starts with "^"    */
+
+a[href^="#"] {
+  color: cadetblue;
+}
+
+/* Ends with "$"    */
+a[href$=".html"] {
+  color: chartreuse;
+}
+a[href$=".pdf"] {
+  color: steelblue;
+}
+
+a[href$=".JPEG"] {
+  color: springgreen;
+}
+
+/* Space seperated "~"     */
+
+div[class~="font1"] {
+  border: 2px solid blue;
+}
